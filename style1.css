@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  background: linear-gradient(45deg, pink, #ffa500);
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(208, 208, 224); */
+}
+
+#nav {
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+#counter{
+    border-radius: 50%;
+    width: 10px;
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    text-align: center;
+    justify-content: center;
+    background-color: #ece4e4;
+}
+#main #head {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+#head #left {
+  height: 100%;
+  width: 50%;
+}
+#left #ltext {
+  padding: 50px 50px;
+}
+#left #ltext h1 {
+  font-size: 60px;
+}
+#left #button {
+  padding-top: 20px;
+}
+#left button {
+  display: flex;
+  gap: 30px;
+  padding: 12px 22px;
+  background-color: black;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* border-top-right-radius: 20px; */
+}
+#lbottom {
+  margin-top: 70px;
+  padding-left: 50px;
+  height: 60px;
+  width: 50%;
+  display: flex;
+  gap: 22px;
+}
+#lbottomone {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+
+  overflow: hidden;
+  border: 1px solid rgba(99, 83, 83, 0.822);
+}
+#lbottomone img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#lbottomtwo {
+  height: 60px;
+
+  width: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(99, 83, 83, 0.822);
+}
+#lbottomtwo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#lbottomthree {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+
+  overflow: hidden;
+  border: 1px solid rgba(99, 83, 83, 0.822);
+}
+#lbottomthree img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#lbottomfour {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(99, 83, 83, 0.822);
+}
+#lbottomfour img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#part1 #ltexticon:hover {
+  transform: scale(1.2);
+  /* background-color: #000; */
+}
+
+#part1 #ltext2icon:hover {
+    transform: scale(1.2);
+    /* background-color: #000; */
+  }
+
+#head #right {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  /* background-color: brown;
+    border-radius: 50%; */
+}
+#rinside {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+
+  background-image: url(./2.png);
+  background-position: center;
+  background-size: cover;
+  bottom: 15%;
+  /* left: 25%; */
+
+  border-radius: 50%;
+}
+#part1 {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+}
+#part1 #left {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  /* background-color: bisque; */
+}
+#part1 #photo {
+  display: flex;
+  overflow: hidden;
+}
+#part1 #photo #one {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  top: 30%;
+  left: 12%;
+  z-index: 99;
+}
+#part1 #ltext {
+  padding: 80px 22px;
+}
+#part1 #ltext h1 {
+  font-size: 37px;
+}
+#part1 #ltext h4 {
+  opacity: 0.6;
+  white-space: nowrap;
+  padding-top: 15px;
+}
+#part1 #ltext h5 {
+  padding-top: 10px;
+}
+#part1 #ltexticon {
+  position: absolute;
+  top: 175px;
+  left: 140px;
+  color: #000;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#part1 #photo #two {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  top: 30%;
+  left: 47%;
+  z-index: 99;
+}
+
+#part1 #left1 {
+  height: 30%;
+  width: 25%;
+  background-color: #ece4e4;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  border-radius: 20px;
+}
+#part1 #left2 {
+  height: 30%;
+  width: 25%;
+  background-color: #ece4e4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+}
+#part1 #ltext2 {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+}
+#part1 #ltext2 h4 {
+  opacity: 0.6;
+  padding-top: 15px;
+}
+#part1 #ltext2 h5 {
+  padding-top: 10px;
+}
+#part1 #ltext2icon {
+  position: absolute;
+  top: 90px;
+  left: 114px;
+  color: #000;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#part1 #right {
+  height: 100%;
+  width: 50%;
+  /* background-color:#fdd997; */
+}
+#part1 #right #rtext {
+  padding: 210px 12px;
+}
+#part1 #right #rtext h1 {
+  font-family: "gilroy";
+}
+#part1 #rtext p {
+  width: 600px;
+  opacity: 0.6;
+  padding-top: 40px;
+}
+#part2 {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, pink, #ffa500);
+
+  display: flex;
+}
+#part2 #pleft {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  /* background-color: hwb(0 98% 1% / 0.795); */
+}
+#part2 #pleft1 {
+  position: absolute;
+  height: 550px;
+  width: 250px;
+  background-color: rgb(243, 242, 242);
+  top: 13%;
+  left: 6%;
+  border-radius: 20px;
+}
+#part2 #pltext {
+  padding: 40px 22px;
+}
+#part2 #pltext h1 {
+  font-size: larger;
+  font-weight: bolder;
+}
+#part2 #pimg {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  /* background-color: bisque; */
+  display: flex;
+  gap: 22px;
+}
+#part2 #pimgone {
+  position: absolute;
+  height: 55px;
+  width: 50px;
+  left: 5%;
+  border-radius: 10px;
+
+  border: 1px solid #f3dcdcd2;
+}
+#part2 #pimgone img {
+  height: 50px;
+  width: 50px;
+}
+#part2 #pimgtwo {
+  position: absolute;
+  height: 55px;
+  width: 50px;
+  left: 30%;
+  border-radius: 10px;
+
+  border: 1px solid #f3dcdcd2;
+}
+#part2 #pimgtwo img {
+  height: 50px;
+  width: 50px;
+}
+#part2 #pimgthree {
+  position: absolute;
+  height: 55px;
+  width: 50px;
+  left: 53%;
+  border-radius: 10px;
+
+  border: 1px solid #f3dcdcd2;
+}
+#part2 #pimgthree img {
+  height: 50px;
+  width: 50px;
+}
+#part2 #pimgfour {
+  position: absolute;
+  height: 55px;
+  width: 50px;
+  left: 77%;
+  border-radius: 10px;
+
+  border: 1px solid #f3dcdcd2;
+}
+#part2 #pimgfour img {
+  height: 50px;
+  width: 50px;
+}
+#part2 #pleft12 {
+  height: 30%;
+  width: 45%;
+  background-color: rgb(245, 204, 204);
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  border-radius: 20px;
+}
+#part2 #ltext12 {
+  padding: 85px 13px;
+}
+#part2 #ltext12 h1 {
+  font-size: 25px;
+}
+#part2 #ltext12 h4 {
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 900;
+  padding-top: 05px;
+}
+#part2 #ltext12 h5 {
+  padding-top: 8px;
+}
+#part2 #pleft13 {
+  height: 30%;
+  width: 45%;
+  background-color: rgb(245, 204, 204);
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  border-radius: 20px;
+}
+#part2 #ltext13 {
+  padding: 85px 13px;
+}
+#part2 #ltext13 h1 {
+  font-size: 25px;
+}
+#part2 #ltext13 h4 {
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 900;
+  padding-top: 05px;
+}
+#part2 #ltext13 h5 {
+  padding-top: 8px;
+}
+
+#part2 #pleft2 {
+  position: absolute;
+  height: 550px;
+  width: 250px;
+  background-color: rgb(243, 242, 242);
+  top: 13%;
+  left: 54%;
+  border-radius: 20px;
+}
+#part2 #pleft2 #circle {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  border-radius: 50%;
+
+  top: 45px;
+  overflow: hidden;
+}
+#part2 #circle img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#part2 #pleft2text {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+#part2 #pleft2text h1 {
+  font-family: "gilroy";
+  margin-bottom: 20px;
+}
+#part2 #pleft2text p {
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+#part2 #pleft2text h5 {
+  padding-bottom: 1px;
+  font-size: 18px;
+}
+#part2 #pleft2text h6 {
+  font-size: 18px;
+  opacity: 0.5;
+}
+#part2 #pleft2icon {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  /* display: flex; */
+}
+#part2 #pleft2icon button {
+  margin-left: 130px;
+  border-radius: 20px;
+  padding: 1px 5px;
+  font-size: 12px;
+  font-weight: 100;
+  background-color: #000;
+  color: #fff;
+}
+#part2 #pleft15 {
+  position: absolute;
+  height: 45px;
+  width: 93%;
+  border-radius: 30px;
+  margin-top: 273px;
+  margin-left: 10px;
+
+  background-color: black;
+}
+#part2 #pleft15 i:nth-child(1) {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+}
+#part2 #pleft15 i:nth-child(2) {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+}
+#part2 #pleft15 i:nth-child(3) {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 27%;
+}
+#part2 #pleft15 i:nth-child(4) {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+#part2 #pright {
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(183, 121, 121); */
+}
+#part2 #prighttext {
+  padding: 30% 35px;
+}
+#part2 #prighttext h1 {
+  font-family: "gilroy";
+}
+#part2 #prighttext p {
+  width: 500px;
+  opacity: 0.6;
+  padding-top: 40px;
+}
+#part2 #prightclass {
+  /* position: absolute; */
+  top: 65%;
+  left: 53%;
+  height: 60px;
+  width: 90%;
+
+  display: flex;
+  gap: 20px;
+}
+#part2 #prightone {
+  height: 100%;
+  width: 40%;
+  background-color: black;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+#part2 #prighttwo {
+  height: 100%;
+  width: 42%;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+}
+#part2 #prightonetext {
+  padding: 2px 1px;
+}
+#part2 #prightone h1 {
+  white-space: nowrap;
+  font-size: 20px;
+}
+#part2 #prightone h4 {
+  white-space: nowrap;
+  font-size: 20px;
+  opacity: 0.4;
+}
+#part2 #prightone #pdiv {
+  padding: 20px;
+}
+#part2 #prighttexttwo h1 {
+  white-space: nowrap;
+  font-size: 20px;
+}
+#part2 #prighttexttwo h4 {
+  white-space: nowrap;
+  font-size: 20px;
+  opacity: 0.4;
+}
+#part2 #prighticon {
+  padding: 20px;
+  /* color:blue; */
+}
+#part2 #prighttexttwo {
+  padding: 2px 1px;
+}
+#part2 #partleftimg {
+  height: 150px;
+  width: 145px;
+
+  position: absolute;
+  top: 35%;
+  left: 2%;
+}
+#partleftimg #one {
+  height: 130px;
+  width: 130px;
+
+  /* height: 100%;
+    width: 100%; */
+  position: absolute;
+  z-index: 999;
+}
+#partleftimg #two {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 87%;
+  top: 3%;
+  z-index: 999;
+}
